@@ -17,17 +17,17 @@ namespace Dz_14
                 //1
                 var resultFirst = from p in context.Persons
                                   where p.Books.Count() != 1
-                                  select new { p.Id, p.FullName };
+                                  select new { p.Id, p.FullName, p.IsDeptor };
 
                 //2
                 var resultSecond = from b in context.Books
                                    where b.Id == 3
-                                   select new { b.Id, b.Name, b.IsStock };
+                                   select new { b.Id, b.Name };
 
                 //3
-                var resultThird = from b in context.Books
-                                  where b.IsStock == true
-                                  select new { b.Id, b.Name, b.IsStock };
+                var resultThird = from p in context.Persons
+                                  where p.Books != context.Books
+                                  select new { p.Id, p.FullName, p.IsDeptor };
 
                 //4
                 var resultresultFour = from p in context.Persons
@@ -35,10 +35,14 @@ namespace Dz_14
                                        select new { p.Books };
 
                 //5
-                for (int i = 0; i < context.Persons.Count(); i++)
-                {
-                    context.Persons[i].
-                }
+                var resultFifth = from p in context.Persons
+                                  where p.IsDeptor == true
+                                  select p;
+                var deptorPersons = resultFifth.ToList();
+                deptorPersons.ForEach(p => { p.IsDeptor = false; });
+
+                context.SaveChanges();
+            }
         }
     }
 }
