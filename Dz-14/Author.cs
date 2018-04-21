@@ -13,6 +13,6 @@ namespace Dz_14
         public int Id { get; set; }
         public string FullName { get; set; }
         public int Age { get; set; }
-        public IEnumerable<Book> Books { get; set; }
+        public virtual IEnumerable<Book> Books { get; set; }
     }
 }

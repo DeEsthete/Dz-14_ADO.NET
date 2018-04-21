@@ -12,7 +12,7 @@ namespace Dz_14
         {
             using (LibraryContext context = new LibraryContext())
             {
-                context.Authors.ToList();
+                //context.Authors.ToList();
 
                 //1
                 var resultFirst = from p in context.Persons

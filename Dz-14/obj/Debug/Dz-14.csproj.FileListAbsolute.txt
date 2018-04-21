@@ -10,3 +10,15 @@ c:\users\djoni\source\repos\Dz-14\Dz-14\obj\Debug\Dz-14.csprojResolveAssemblyRef
 c:\users\djoni\source\repos\Dz-14\Dz-14\obj\Debug\Dz-14.csproj.CoreCompileInputs.cache
 c:\users\djoni\source\repos\Dz-14\Dz-14\obj\Debug\Dz-14.exe
 c:\users\djoni\source\repos\Dz-14\Dz-14\obj\Debug\Dz-14.pdb
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\bin\Debug\Dz-14.exe.config
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\bin\Debug\Dz-14.exe
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\bin\Debug\Dz-14.pdb
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\bin\Debug\EntityFramework.dll
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\bin\Debug\EntityFramework.xml
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\obj\Debug\Dz-14.csprojResolveAssemblyReference.cache
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\obj\Debug\Dz-14.csproj.CoreCompileInputs.cache
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\obj\Debug\Dz-14.exe
+C:\Users\djoni\Desktop\projects\Dz-14\Dz-14\obj\Debug\Dz-14.pdb

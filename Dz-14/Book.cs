@@ -10,6 +10,6 @@ namespace Dz_14
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public IEnumerable<Author> Authors {get; set;}
+        public virtual IEnumerable<Author> Authors {get; set;}
     }
 }
